@@ -13,7 +13,7 @@ public class provaa {
 	//metodo
 	public static void stampaDico(int[] a, int l, int r){
 		if(l+1==r){
-			System.out.println(a[l]);
+			System.out.print(a[l] + " ");
 		}else{
 			int m = (l+r)/2;
 			stampaDico(a, l, m);
